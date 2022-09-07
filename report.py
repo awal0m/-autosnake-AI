@@ -64,7 +64,8 @@ def background_fill(screen, chicken_2, count):
     # 如果没有背景图片可以填充只纯色
     screen.fill(BGCOLOR)    # 填充纯色
     num = 4
-    if chicken_2 == 1:
+    # 背景图片
+    '''if chicken_2 == 1:
         if count == 0:
             back_image = pygame.image.load('pt2.jpg')
         elif count == 1:
@@ -80,7 +81,7 @@ def background_fill(screen, chicken_2, count):
         elif count == 6:
             back_image = pygame.image.load('pt8.jpg')
     elif chicken_2 == 2:
-        back_image = pygame.image.load('pt1.jpg')
+        back_image = pygame.image.load('pt1.jpg')'''
     elif not chicken_2:
         back_image = pygame.image.load('back1.jpg')
     screen.blit(back_image, (0, 0))
